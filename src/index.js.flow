@@ -1,12 +1,12 @@
-export type Point2d = {|
+export type Point2d = {
   x: number,
-  y: number
-|};
+  y: number,
+};
 
-export type Test = {|
+export type Test = {
   adult: boolean,
   data: string,
   name?: string,
   age: number,
-  location?: Point2d
-|};
+  location?: Point2d,
+};

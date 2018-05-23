@@ -1,4 +1,4 @@
-/* @flow */
+// @flow
 
 import typeof util from 'util';
 import typeof fs from 'fs';

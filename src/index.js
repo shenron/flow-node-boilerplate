@@ -1,4 +1,4 @@
-/* @flow */
+// @flow
 
 import type { Test, Point2d } from './index.js.flow';
 import type { Main } from './node-api-example';

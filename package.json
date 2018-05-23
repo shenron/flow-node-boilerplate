@@ -11,14 +11,18 @@
     "flow:deps": "flow-typed install",
     "dev": "watch --wait=1 'flow-remove-types src/ -d lib/ --all --pretty' ./src/ & nodemon ./lib/",
     "start": "npm run flow:build && node ./lib/",
-    "lint": "eslint src"
+    "lint": "eslint src/**"
   },
   "author": "asci@yandex.ru",
   "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-flowtype": "^2.47.1",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.2",
     "flow-bin": "^0.72.0",
     "flow-coverage-report": "^0.5.0",
     "flow-remove-types": "^1.2.3",

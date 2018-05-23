@@ -1,6 +1,8 @@
 /* @flow */
+
 import type { Test, Point2d } from './index.js.flow';
 import type { Main } from './node-api-example';
+
 const main: Main = require('./node-api-example');
 
 const point: Point2d = { x: 2, y: 3 };
@@ -9,7 +11,7 @@ const test: Test = {
   data: 'test',
   name: 'test',
   age: 11,
-  location: point
+  location: point,
 };
 
 async function run(): Promise<void> {
@@ -18,5 +20,5 @@ async function run(): Promise<void> {
 }
 run();
 
-const test11: string = 'ololo';
+const test11: string = (test.name || 'ololo');
 console.log('done', test11);

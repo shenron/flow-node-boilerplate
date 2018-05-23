@@ -3,3 +3,4 @@ flow-typed
 lib
 npm-debug.log
 flow-coverage
+coverage

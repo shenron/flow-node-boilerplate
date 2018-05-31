@@ -1,13 +1,12 @@
+[include]
+
 [ignore]
 .*/node_modules/.*
 .*/lib/.*
 .*/flow-coverage/.*
-.*/coverage
-
-[include]
+.*/coverage/.*
 
 [libs]
 flow-typed
 
 [options]
-all=true
